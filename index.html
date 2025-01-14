@@ -23,7 +23,7 @@
     style="font-family: Barlow Condensed, serif"
   >
     <div
-      class="overflow-hidden h-[100vh] max-[768px]:min-h-[1000px] min-h-[900px] w-[100%] bg-[url('./assets/home/background-home-desktop.jpg')] max-[768px]:bg-[url('./assets/home/background-home-tablet.jpg')] max-[555px]:bg-[url('./assets/home/background-home-mobile .jpg')] bg-no-repeat bg-cover bg-center"
+      class="h-[100vh] max-[1056px]:h-[100%] max-[768px]:min-h-[1000px] min-h-[900px] w-[100%] bg-[url('./assets/home/background-home-desktop.jpg')] max-[768px]:bg-[url('./assets/home/background-home-tablet.jpg')] max-[555px]:bg-[url('./assets/home/background-home-mobile.jpg')] bg-no-repeat bg-cover bg-center"
     >
       <header class="w-full pt-[40px] pl-[55px] max-[768px]:pt-0">
         <nav class="w-full h-[96px] flex justify-between items-center">
@@ -31,7 +31,7 @@
             <img src="assets/shared/logo.svg" alt="logo" />
           </div>
           <hr
-            class="w-[30%] z-10 border-[#979797] max-w-[473px] relative left-[5%] max-[768px]:hidden"
+            class="w-[30%] border-[#979797] max-w-[473px] relative left-[5%] max-[768px]:hidden"
           />
           <div
             class="max-[555px]:hidden w-[65%] max-[768px]:w-[400px] backdrop-blur-[20px] bg-[#ffffff0a] flex justify-center h-[100%]"
@@ -40,15 +40,21 @@
               class="flex w-[60%] max-[1045px]:w-[80%] max-[1045px]:mr-0 max-w-[800px] justify-between items-center mr-[3rem] [&_*]:text-[#fff] [&_*]:text-[16px] [&_*]:cursor-pointer [&_*]:uppercase [&_*]:tracking-[2px]"
             >
               <li
+                id="Home"
                 class="relative after:absolute after:content-[''] after:top-[57px] after:left-0 after:w-[100%] after:h-[3px] after:bg-[#fff]"
               >
-                <span class="font-extrabold tracking-[2px]">00 </span>Home
+                <a href="index.html">
+                  <span class="font-extrabold tracking-[2px]">00 </span>Home
+                </a>
               </li>
               <li
+                id="Destination"
                 class="relative hover:after:absolute hover:after:content-[''] hover:after:top-[57px] hover:after:left-0 hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-[#ffffff8a]"
               >
-                <span class="font-extrabold tracking-[2px]">01 </span
-                >Destination
+                <a href="destination.html">
+                  <span class="font-extrabold tracking-[2px]">01 </span
+                  >Destination
+                </a>
               </li>
               <li
                 class="relative hover:after:absolute hover:after:content-[''] hover:after:top-[57px] hover:after:left-0 hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-[#ffffff8a]"
@@ -93,9 +99,12 @@
               <li
                 class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] hover:after:bg-[#ffffff8a]"
               >
-                <span class="font-extrabold tracking-[2px]">01 </span
-                >Destination
+                <a href="destination.html">
+                  <span class="font-extrabold tracking-[2px]">01 </span
+                  >Destination
+                </a>
               </li>
+
               <li
                 class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] hover:after:bg-[#ffffff8a]"
               >
@@ -138,7 +147,7 @@
           </div>
         </div>
         <div
-          class="max-[1056px]:h-[50%] max-[1056px]:w-[100%] h-[100%] w-[50%] flex max-[1056px]:items-center max-[1056px]:m-0 items-center max-[768px]:justify-center justify-end flex-col max-[1056px]:p-0 pl-[6%] pb-[1%]"
+          class="max-[1056px]:mt-[3rem] max-[1056px]:h-[50%] max-[1056px]:w-[100%] h-[100%] w-[50%] flex max-[1056px]:items-center max-[1056px]:m-0 items-center max-[768px]:justify-center justify-end flex-col max-[1056px]:p-0 pl-[6%] pb-[1%]"
         >
           <div
             class="max-[1056px]:w-[400px] max-[1056px]:h-[400px] max-[768px]:w-[300px] max-[768px]:h-[300px] w-[450px] h-[450px] hover:bg-[#ffffff3d] rounded-[100%] flex items-center justify-center"
