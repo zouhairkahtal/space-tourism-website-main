@@ -352,7 +352,7 @@ titan.addEventListener("click", () => {
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
-                  src="${moonData.images.png}"
+                  src="${titanData.images.png}"
                   alt="moon"
                 />
 `
