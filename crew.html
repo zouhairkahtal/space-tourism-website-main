@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body
+    class="*:m-0 *:p-0 *:box-border"
+    style="font-family: Barlow Condensed, serif"
+  >
+    <div
+      class="h-[100vh] overflow-hidden max-[1056px]:h-[100%] max-[768px]:min-h-[800px] min-h-[800px] min-[1367px]:w-[100%] bg-[url('./assets/crew/background-crew-desktop.jpg')] max-[768px]:bg-[url('./assets/crew/background-crew-tablet.jpg')] max-[555px]:bg-[url('./assets/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center"
+    >
+      <header class="w-full pt-[40px] pl-[55px] max-[768px]:pt-0">
+        <nav class="w-full h-[96px] flex justify-between items-center">
+          <div>
+            <img src="assets/shared/logo.svg" alt="logo" />
+          </div>
+          <hr
+            class="w-[30%] border-[#979797] max-w-[473px] relative left-[5%] max-[768px]:hidden"
+          />
+          <div
+            class="max-[555px]:hidden w-[65%] max-[768px]:w-[400px] backdrop-blur-[20px] bg-[#ffffff0a] flex justify-center h-[100%]"
+          >
+            <ul
+              class="flex w-[60%] max-[1045px]:w-[80%] max-[1045px]:mr-0 max-w-[800px] justify-between items-center mr-[3rem] [&_*]:text-[#fff] [&_*]:text-[16px] [&_*]:cursor-pointer [&_*]:uppercase [&_*]:tracking-[2px]"
+            >
+              <li
+                id="Home"
+                class="relative hover:after:absolute hover:after:content-[''] hover:after:top-[57px] hover:after:left-0 hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-[#ffffff8a]"
+              >
+                <a href="index.html">
+                  <span class="font-extrabold tracking-[2px] max-[800px]:hidden"
+                    >00 </span
+                  >Home
+                </a>
+              </li>
+              <li
+                id="Destination"
+                class="relative hover:after:absolute hover:after:content-[''] hover:after:top-[57px] hover:after:left-0 hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-[#ffffff8a]"
+              >
+                <a href="destination.html">
+                  <span class="font-extrabold tracking-[2px] max-[800px]:hidden"
+                    >01 </span
+                  >Destination
+                </a>
+              </li>
+              <li
+                class="relative after:absolute after:content-[''] after:top-[57px] after:left-0 after:w-[100%] after:h-[3px] after:bg-[#fff]"
+              >
+                <a href="crew.html">
+                  <span class="font-extrabold tracking-[2px] max-[800px]:hidden"
+                    >02 </span
+                  >Crew
+                </a>
+              </li>
+              <li
+                class="relative hover:after:absolute hover:after:content-[''] hover:after:top-[57px] hover:after:left-0 hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-[#ffffff8a]"
+              >
+                <span class="font-extrabold tracking-[2px] max-[800px]:hidden"
+                  >03 </span
+                >Technology
+              </li>
+            </ul>
+          </div>
+          <div class="hidden max-[555px]:flex">
+            <button id="open" class="pr-[24px]">
+              <img
+                class="size-6"
+                src="assets/shared/icon-hamburger.svg"
+                alt="open"
+              />
+            </button>
+          </div>
+        </nav>
+        <nav id="nav" class="hidden justify-center items-center">
+          <div
+            class="w-[70%] fixed flex justify-start items-center flex-col top-0 right-0 pl-[10%] backdrop-blur-[20px] bg-[#ffffff0a] h-[100vh]"
+          >
+            <button
+              id="close"
+              class="mb-[64px] self-end size-[24px] mr-6 mt-[33px]"
+            >
+              <img src="assets/shared/icon-close.svg" alt="icon-close" />
+            </button>
+            <ul
+              class="flex w-[100%] justify-between h-[300px] flex-col items-start [&_*]:text-[#fff] [&_*]:w-full [&_*]:text-[16px] [&_*]:cursor-pointer"
+            >
+              <li
+                class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] hover:after:bg-[#ffffff8a]"
+              >
+                <a href="index.html">
+                  <span class="font-extrabold tracking-[2px]">00 </span>Home
+                </a>
+              </li>
+              <li
+                class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] hover:after:bg-[#ffffff8a]"
+              >
+                <a href="destination.html">
+                  <span class="font-extrabold tracking-[2px]">01 </span
+                  >Destination
+                </a>
+              </li>
+              <li
+                class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] after:bg-[#fff]"
+              >
+                <span class="font-extrabold tracking-[2px]">02 </span>Crew
+              </li>
+              <li
+                class="relative after:absolute after:content-[''] after:top-[0] after:left-[99%] after:w-[4px] after:h-[100%] hover:after:bg-[#ffffff8a]"
+              >
+                <span class="font-extrabold tracking-[2px]">03 </span>Technology
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section
+        class="h-[90vh] min-h-[800px]  w-full  max-[1056px]:mt-[5%]   flex max-[1056px]:flex-col max-[1056px]:justify-center max-[1056px]:items-center  bgslate-800"
+      >
+        <div class="h-full w-[50%] max-[768px]:w-[90%] max-[768px]:h-[50%] bg-slate-100 " > lfknezoijfoiezrhn</div>
+        <div class="h-full w-[50%] max-[768px]:w-[90%] max-[768px]:h-[50%]  flex items-end justify-center"><img class="max-[1056px]:w-[70%] max-[1056px]:min-w-[350px] max-[768px]:w-[40%]  max-[768px]:min-w-[300px] min-w-[500px] w-[65%] " src="./assets/crew/image-douglas-hurley.webp"> </div>
+      </section>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
+
+<!-- 00 Home
+01 Destination
+02 Crew
+03 Technology
+
+02 Meet your crew
+
+Commander
+Douglas Hurley
+
+Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+and former NASA astronaut. He launched into space for the third time as 
+commander of Crew Dragon Demo-2. -->
