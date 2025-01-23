@@ -18,8 +18,6 @@ closebtn.addEventListener("click", () => {
   nav.style.display = "none";
 });
 
-import { all } from "/data.js";
-
 const moonData = all[0].destinations[0];
 const marsData = all[0].destinations[1];
 const europaData = all[0].destinations[2];
