@@ -9,6 +9,10 @@ const mars = document.getElementById("mars");
 const europa = document.getElementById("europa");
 const titan = document.getElementById("titan");
 
+///date///
+
+///
+
 openbtn.addEventListener("click", () => {
   openbtn.style.display = "none";
   nav.style.display = "flex";
@@ -23,9 +27,6 @@ const marsData = all[0].destinations[1];
 const europaData = all[0].destinations[2];
 const titanData = all[0].destinations[3];
 
-console.log(moonData);
-
-import { all } from "/data.js";
 
 
 moon.addEventListener("click", () => {
