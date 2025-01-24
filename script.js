@@ -24,6 +24,10 @@ const europaData = all[0].destinations[2];
 const titanData = all[0].destinations[3];
 
 console.log(moonData);
+
+import { all } from "/data.js";
+
+
 moon.addEventListener("click", () => {
   moon.classList.add('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
   mars.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
