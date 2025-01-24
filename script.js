@@ -188,7 +188,7 @@ moon.addEventListener("click", () => {
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
-                  src="${moonData.images.png}"
+                  src="${moonData.images.webp}"
                   alt="moon"
                 />
 `
@@ -283,7 +283,7 @@ mars.addEventListener("click", () => {
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
-                  src="${marsData.images.png}"
+                  src="${marsData.images.webp}"
                   alt="moon"
                 />
 `
@@ -378,7 +378,7 @@ europa.addEventListener("click", () => {
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
-                  src="${europaData.images.png}"
+                  src="${europaData.images.webp}"
                   alt="moon"
                 />
 `
@@ -472,7 +472,7 @@ titan.addEventListener("click", () => {
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
-                  src="${titanData.images.png}"
+                  src="${titanData.images.webp}"
                   alt="moon"
                 />
 `
