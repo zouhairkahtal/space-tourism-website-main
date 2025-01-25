@@ -23,7 +23,7 @@
     style="font-family: Barlow Condensed, serif"
   >
     <div
-      class="h-[100vh] overflow-hidden max-[1056px]:h-[100%] max-[768px]:min-h-[800px] min-h-[800px] min-[1367px]:w-[100%] bg-[url('./assets/crew/background-crew-desktop.jpg')] max-[768px]:bg-[url('./assets/crew/background-crew-tablet.jpg')] max-[555px]:bg-[url('./assets/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center"
+      class="h-[100vh] overflow-hidden max-[1056px]:h-[100%] max-[375px]:max-h-[1100px] max-[555px]:max-h-[1000px] max-[768px]:min-h-[800px] min-h-[800px] min-[1367px]:w-[100%] bg-[url('./assets/crew/background-crew-desktop.jpg')] max-[768px]:bg-[url('./assets/crew/background-crew-tablet.jpg')] max-[555px]:bg-[url('./assets/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center"
     >
       <header class="w-full pt-[40px] pl-[55px] max-[768px]:pt-0">
         <nav class="w-full h-[96px] flex justify-between items-center">
@@ -130,55 +130,69 @@
         </nav>
       </header>
       <section
-        class="h-[90vh] min-h-[800px] max-[1056px]:min-h-[1100px] w-full max-[1056px]:mt-[5%] flex max-[1056px]:flex-col max-[1056px]:justify-center max-[1056px]:items-center bgslate-800 "
+        class="h-[90vh]  min-h-[800px] max-[1056px]:min-h-[1100px] w-full max-[1056px]:mt-[5%] flex max-[1056px]:flex-col max-[1056px]:justify-center max-[555px]:justify-start  max-[1056px]:items-center bgslate-800 "
       >
         <div
-          class="h-full w-[50%] max-[768px]:w-[90%] max-[1056px]:w-[80%] max-[768px]:h-[50%] bg-slate-900 pl-[10rem] pt-[5rem] max-[1056px]:pl-0 max-[1056px]:pt-0 "
+          class="h-full w-[50%] max-[555px]:h-[80%] max-[768px]:w-[90%] max-[1056px]:w-[80%] max-[768px]:h-[50%]  pl-[10rem] pt-[5rem] max-[1056px]:pl-0 max-[1056px]:pt-0 "
         >
           <div
-            class="bg-orange-300 w-full h-[80px] flex items-center max-[555px]:justify-center mb-[104px] max-[1056px]:mb-[64px]"
+            class=" w-full h-[80px] flex items-center max-[555px]:justify-center mb-[104px] max-[1056px]:mb-[64px] max-[555px]:mb-[20px]"
           >
             <h2 class="text-white text-[28px] uppercase tracking-[4px]">
               <span class="text-[#ffffff] opacity-[25%]">02</span> Meet your
               crew
             </h2>
           </div>
-          <div class="bg-slate-400 max-[1056px]:[&_*]:text-center  ">
-            <h2 class="text-[32px]  text-[#ffffff7a]" style="font-family:Bellefair Regular">Commander</h2>
-            <h1 class="text-[56px] mb-[15px] text-white" style="font-family: Bellefair Regular;">Douglas Hurley</h1>
-            <p class="mb-[27px] text-[18px] leading-[32px] text-[#D0D6F9] max-w-[444px]  max-[1056px]:max-w-[100%]">
-              Douglas Gerald Hurley is an American engineer, former Marine Corps
-              pilot and former NASA astronaut. He launched into space for the
-              third time as commander of Crew Dragon Demo-2.
-            </p>
-          </div>
-          <div class="flex items-end  max-[1056px]:justify-center h-[5rem] space-x-2 ">
-            <input
+          <div class="max-[555px]:flex-col-reverse flex flex-col">
+
+            <div class="max-[1056px]:[&_*]:text-center max-[555px]:h-[50%] max-[555px]:flex max-[555px]:flex-col max-[555px]:items-center  ">
+              <h2 class="text-[32px]  text-[#ffffff7a]" style="font-family:Bellefair Regular">Commander</h2>
+              <h1 class="text-[56px] mb-[15px] text-white" style="font-family: Bellefair Regular;">Douglas Hurley</h1>
+              <p class="mb-[27px] text-[18px] leading-[32px] text-[#D0D6F9] max-w-[444px]  max-[1056px]:max-w-[100%] max-[555px]:max-w-[75%]">
+                Douglas Gerald Hurley is an American engineer, former Marine Corps
+                pilot and former NASA astronaut. He launched into space for the
+                third time as commander of Crew Dragon Demo-2.
+              </p>
+            </div>
+            <div class="flex items-end  max-[1056px]:justify-center h-[5rem] space-x-2 max-[555px]:items-center flex-col max-[555px]:h-[50%]  ">
+              <div class="hidden max-[555px]:flex  w-full  items-center justify-center flex-col ">
+                <img src="assets/crew/image-douglas-hurley.webp" alt="hurley" class="w-[50%] min-w-[220px]">
+                <hr class="bg-[#979797] h-[1px] w-[100%] border-none ">
+              </div>
+
+              <div class="flex items-end  max-[1056px]:justify-center h-[5rem] w-full space-x-2 max-[555px]:items-center ">
+
+            
+              <input
               type="radio"
               name="slider"
               class="w-[15px] h-[15px] rounded-full bg-[#ffffff15]  checked:bg-white  hover:bg-[#ffffff77] focus:ring-0 appearance-none cursor-pointer transition"
               checked
-            />
-            <input
+              />
+              <input
               type="radio"
               name="slider"
               class="w-[15px] h-[15px] rounded-full bg-[#ffffff15] checked:bg-white hover:bg-[#ffffff77] focus:ring-0 appearance-none cursor-pointer transition"
-            />
-            <input
+              />
+              <input
               type="radio"
               name="slider"
               class="w-[15px] h-[15px] rounded-full bg-[#ffffff15] checked:bg-white hover:bg-[#ffffff77] focus:ring-0 appearance-none cursor-pointer transition"
-            />
-            <input
+              />
+              <input
               type="radio"
               name="slider"
               class="w-[15px] h-[15px] rounded-full bg-[#ffffff15] checked:bg-white  hover:bg-[#ffffff77] focus:ring-0 appearance-none cursor-pointer transition"
-            />
+              />
+              </div>
+            
+            </div>
+            
           </div>
           
         </div>
         <div
-          class="h-full w-[50%] max-[768px]:w-[90%] max-[768px]:h-[50%] flex items-end justify-center"
+          class="h-full w-[50%] max-[768px]:w-[90%] max-[768px]:h-[50%] flex items-end justify-center max-[555px]:hidden"
         >
           <img
             class="max-[1056px]:w-[80%] max-[1056px]:min-w-[450px] max-[768px]:w-[70%] max-[768px]:min-w-[300px] min-w-[500px] w-[65%]"
@@ -186,6 +200,8 @@
           />
         </div>
       </section>
+
+
     </div>
     <script type="module" src="script.js"></script>
   </body>
