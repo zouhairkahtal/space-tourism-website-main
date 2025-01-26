@@ -139,60 +139,96 @@ closebtn.addEventListener("click", () => {
   nav.style.display = "none";
 });
 
+///destinations-data
 const moonData = all[0].destinations[0];
 const marsData = all[0].destinations[1];
 const europaData = all[0].destinations[2];
 const titanData = all[0].destinations[3];
+////////////////////////////////////////
 
-
-
+///////////////////////////////////////////////////// Destination script ////////////////////////////////////////////////////////////////
 moon.addEventListener("click", () => {
-  moon.classList.add('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  mars.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  europa.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  titan.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  
+  moon.classList.add(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  mars.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  europa.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  titan.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
 
   titan.classList.add(
-    'relative',
-    'hover:after:absolute',
+    "relative",
+    "hover:after:absolute",
     "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
   europa.classList.add(
-    'relative',
-    'hover:after:absolute',
+    "relative",
+    "hover:after:absolute",
     "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
   mars.classList.add(
-    'relative',
-    'hover:after:absolute',
+    "relative",
+    "hover:after:absolute",
     "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
 
-  destinationImage.innerHTML=`
+  destinationImage.innerHTML = `
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
                   src="${moonData.images.webp}"
                   alt="moon"
                 />
-`
-  destinationText.innerHTML=`
+`;
+  destinationText.innerHTML = `
        
               <h1
                   class="text-[100px] uppercase max-[1024px]:text-[100px] max-[1056px]:m-0 max-[768px]:text-[80px] max-[555px]:text-[56px] text-[#ffff]"
@@ -238,56 +274,90 @@ moon.addEventListener("click", () => {
                     </p>
                   </div>
                 </div>
-`
-
+`;
 });
 mars.addEventListener("click", () => {
-  mars.classList.add('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  europa.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  moon.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  titan.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  
- 
-  titan.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  europa.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  moon.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+  mars.classList.add(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  europa.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  moon.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  titan.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
 
-  destinationImage.innerHTML=`
+  titan.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  europa.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  moon.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+
+  destinationImage.innerHTML = `
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
                   src="${marsData.images.webp}"
                   alt="moon"
                 />
-`
-  destinationText.innerHTML=`
+`;
+  destinationText.innerHTML = `
        
               <h1
                   class="text-[100px] uppercase max-[1024px]:text-[100px] max-[1056px]:m-0 max-[768px]:text-[80px] max-[555px]:text-[56px] text-[#ffff]"
@@ -333,56 +403,90 @@ mars.addEventListener("click", () => {
                     </p>
                   </div>
                 </div>
-`
-
+`;
 });
 europa.addEventListener("click", () => {
-  europa.classList.add('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  mars.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  moon.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  titan.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  
- 
-  titan.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  mars.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  moon.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+  europa.classList.add(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  mars.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  moon.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  titan.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
 
-  destinationImage.innerHTML=`
+  titan.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  mars.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  moon.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+
+  destinationImage.innerHTML = `
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
                   src="${europaData.images.webp}"
                   alt="moon"
                 />
-`
-  destinationText.innerHTML=`
+`;
+  destinationText.innerHTML = `
        
               <h1
                   class="text-[100px] uppercase max-[1024px]:text-[100px] max-[1056px]:m-0 max-[768px]:text-[80px] max-[555px]:text-[56px] text-[#ffff]"
@@ -428,55 +532,90 @@ europa.addEventListener("click", () => {
                     </p>
                   </div>
                 </div>
-`
-
+`;
 });
 titan.addEventListener("click", () => {
-  titan.classList.add('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  mars.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  moon.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  europa.classList.remove('relative', 'after:absolute', 'after:content-[""]', 'after:top-[30px]', 'after:left-0', 'after:w-[100%]', 'after:h-[3px]', 'after:bg-[#fff]'); 
-  
-  europa.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  mars.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
-  moon.classList.add(
-    'relative',
-    'hover:after:absolute',
-    "hover:after:content-['']",
-    'hover:after:top-[30px]',
-    'hover:after:left-0',
-    'hover:after:w-[100%]',
-    'hover:after:h-[3px]',
-    'hover:after:bg-[#ffffff8a]'
-  ); 
+  titan.classList.add(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  mars.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  moon.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
+  europa.classList.remove(
+    "relative",
+    "after:absolute",
+    'after:content-[""]',
+    "after:top-[30px]",
+    "after:left-0",
+    "after:w-[100%]",
+    "after:h-[3px]",
+    "after:bg-[#fff]"
+  );
 
-  destinationImage.innerHTML=`
+  europa.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  mars.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+  moon.classList.add(
+    "relative",
+    "hover:after:absolute",
+    "hover:after:content-['']",
+    "hover:after:top-[30px]",
+    "hover:after:left-0",
+    "hover:after:w-[100%]",
+    "hover:after:h-[3px]",
+    "hover:after:bg-[#ffffff8a]"
+  );
+
+  destinationImage.innerHTML = `
        
                 <img
                   class="w-[445px] max-[768px]:w-[300px] max-[555px]:w-[170px]"
                   src="${titanData.images.webp}"
                   alt="moon"
                 />
-`
-  destinationText.innerHTML=`
+`;
+  destinationText.innerHTML = `
        
               <h1
                   class="text-[100px] uppercase max-[1024px]:text-[100px] max-[1056px]:m-0 max-[768px]:text-[80px] max-[555px]:text-[56px] text-[#ffff]"
@@ -522,6 +661,5 @@ titan.addEventListener("click", () => {
                     </p>
                   </div>
                 </div>
-`
-
+`;
 });
